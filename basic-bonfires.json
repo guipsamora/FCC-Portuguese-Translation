@@ -239,7 +239,7 @@
         "Palíndromo é uma palavra ou frase que, lida de trás para frente, tem as mesmas letras na mesma ordem, ignorando pontuação, maiúsculas e minúsculas, e espaços.",
         "Você vai precisar remover pontuações e transformar tudo em minúsculas para conseguir checar os palíndromos.",
         "As strings usadas como argumento terão formatos variados, como \"racecar\", \"RaceCar\", and \"race CAR\" entre outros.",
-        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."      
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."
       ]
     },
     {
@@ -282,7 +282,7 @@
       "descriptionPt": [
         "Retorne o comprimento da palavra mais longa da frase fornecida.",
         "Sua resposta precisa ser um número.",
-        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."      
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."  
       ]
     },
     {
@@ -323,7 +323,7 @@
       "descriptionPt": [
         "Retorne a string fornecida com a primeira letra de cada palavra alterada para maiúscula.",
         "Para esse exercício, você deve capitalizar inclusive as palavras de conexão, como 'the' e 'of'.",
-        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."      
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."
       ]
     },
     {
@@ -366,7 +366,7 @@
         "Retorne uma array que seja formada pelos maiores números de cada sub-array fornecida. Para simplificar, cada array fornecida terá 4 sub-arrays.",
         "Lembre que você pode iterar pela array com um loop simples, e acessar cada elemento usando a sintaxe arr[i].",
         "Se você estiver escrevendo os seus próprios testes Chai.js, certifique-se de usar o sinal comparativo profundo quando comparar arrays.",
-        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."      
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."
       ]
     },
     {
@@ -871,7 +871,7 @@
       "namePt": "Bonfire: Compare Duas Arrays",
       "descriptionPt": [
         "Compare two arrays and return a new array with any items not found in both of the original arrays.",
-        "Compare duas arrays e retorne uma nova array com qualquer item não encontrado em ambas das arrays originais"
+        "Compare duas arrays e retorne uma nova array com qualquer item não encontrado em ambas das arrays originais.",
         "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código." 
       ]
     },
@@ -961,10 +961,10 @@
       "descriptionEs": [],
       "namePt": "Bonfire: Busque e Substitua",
       "descriptionPt": [
-        "Faça uma busca e substituição em uma frase usando um argumento fornecido e retorne a nova frase",
-        "O primeiro argumento é a frase em que a busca e substituição será realizada",
-        "O segundo argumento é a palavra que será substituída",
-        "O terceiro argumento é a palavra que substituirá o segundo argumento no primeiro argumento",
+        "Faça uma busca e substituição em uma frase usando um argumento fornecido e retorne a nova frase.",
+        "O primeiro argumento é a frase em que a busca e substituição será realizada.",
+        "O segundo argumento é a palavra que será substituída.",
+        "O terceiro argumento é a palavra que substituirá o segundo argumento no primeiro argumento.",
         "OBS: Preserve a caixa da palavra original quando você a estiver substituindo. Por exemplo, se você substituir a palavra 'Livro' com a palavra 'cachorro', a nova palavra deve ser 'Cachorro'",
         "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código." 
       ]
@@ -1009,8 +1009,13 @@
       "descriptionRu": [],
       "nameEs": "",
       "descriptionEs": [],
-      "namePt": "",
-      "descriptionPt": []
+      "namePt": "Bonfire: Pig Latin",
+      "descriptionPt": [
+        "Traduza a string fornecida para pig latin.",
+        "<a href=\"http://en.wikipedia.org/wiki/Pig_Latin\">Pig Latin</a> pega a primeira consoante (ou grupo de consoantes) de uma palavra em inglês, e coloca ela no final da palavra e adiciona o sufixo \"ay\".",
+        "Se uma palavra começa com uma voga você apenas adiciona \"way\" ao final da palavra.",
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código." 
+      ]
     },
     {
       "_id": "afd15382cdfb22c9efe8b7de",
@@ -1047,11 +1052,12 @@
       "descriptionRu": [],
       "nameEs": "",
       "descriptionEs": [],
-      "namePt": "",
+      "namePt": "Bonfire: Combinação de DNA",
       "descriptionPt": [
-        
-        
-
+        "Está faltando um elemento da sequencia de DNA. Combine cada caracter com o elemento ausente e retorne os resultados como uma segunda array.",
+        "<a href=\"https://pt.wikipedia.org/wiki/Par_de_bases\">Par de bases</a> são um par de AT e um de CG. Combine o elemento ausente com o caracter fornecido.",
+        "Retorne o caractere fornecido como o primeiro elemento em cada array.",
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código." 
       ]
     },
     {
@@ -1088,8 +1094,12 @@
       "descriptionRu": [],
       "nameEs": "",
       "descriptionEs": [],
-      "namePt": "",
-      "descriptionPt": []
+      "namePt": "Bonfire: Letras Faltando",
+      "descriptionPt": [
+        "Encontre a letra que está faltando numa série de letras e a retorne.",
+        "Se todas as letras estão presentes na série, então retorne undefined.",
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."
+        ]
     },
     {
       "_id": "a77dbc43c33f39daa4429b4f",
@@ -1130,8 +1140,12 @@
       "descriptionRu": [],
       "nameEs": "",
       "descriptionEs": [],
-      "namePt": "",
-      "descriptionPt": []
+      "namePt": "Bonfire: Boo quem?",
+      "descriptionPt": [
+        "Confira se o valor está classificado como um Boolean primitivo. Retorne verdadeiro ou falso",
+        "Booleans primitivos são verdadeiros ou falsos.",
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."
+        ]
     },
     {
       "_id": "a105e963526e7de52b219be9",
@@ -1167,8 +1181,14 @@
       "descriptionRu": [],
       "nameEs": "",
       "descriptionEs": [],
-      "namePt": "",
-      "descriptionPt": []
+      "namePt": "Bonfire: União Classificada",
+      "descriptionPt": [
+        "Escreva uma função que pegue duas ou mais arrays e retorne uma nova array apenas com valores únicos na ordem que estavam em suas arrays originais.",
+        "Em outras palavras, todos os valores presentes devem ser incluídos em sua ordem original, mas não devem existir valores duplicados na array final.",
+        "Os números únicos devem ser classificados conforme sua ordem original, mas a array final não deve ser ordenada numericamente.",
+        "Confira os testes para ter exemplos.",
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."        
+      ]
     },
     {
       "_id": "a6b0bb188d873cb2c8729495",
@@ -1202,8 +1222,11 @@
       "descriptionRu": [],
       "nameEs": "",
       "descriptionEs": [],
-      "namePt": "",
-      "descriptionPt": []
+      "namePt": "Bonfire: Converta Entidades HTML",
+      "descriptionPt": [
+        "Converta os caractéres \"&\", \"<\", \">\", '\"', e \"'\", em uma string para a sua entidade HTML correspondente",
+        "Lembre-se de usar <a href='/field-guide/how-do-i-get-help-when-I-get-stuck'>RSAP</a> se você não conseguir ir adiante. Tente programar em dupla. Escreva o seu próprio código."
+      ]
     },
     {
       "_id": "a103376db3ba46b2d50db289",
